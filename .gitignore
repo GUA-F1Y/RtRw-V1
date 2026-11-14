@@ -1,0 +1,29 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build and dist outputs
+dist/
+dist-ssr/
+public/build/
+public/storage/
+public/hot/
+
+# Storage & logs
+*.log
+storage/*.key
+storage/pail/
+storage/app/private/files/*
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.phpunit.cache/
+.phpunit.result.cache
